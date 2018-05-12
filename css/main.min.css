@@ -11305,6 +11305,10 @@ footer {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto; }
 
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
 header {
   padding-top: 55px;
   width: 100%;
@@ -11411,7 +11415,7 @@ header {
 .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
   height: 2px; }
 
-.main-page main {
+.main-page {
   padding-top: 227px; }
 
 main {
@@ -11477,7 +11481,7 @@ main {
     left: 0;
     top: 0; }
 
-.main-page main .pagingInfo {
+.main-page .pagingInfo {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11497,7 +11501,7 @@ main {
   width: 40px;
   height: 20px;
   font-size: 14px; }
-  .main-page main .pagingInfo .current {
+  .main-page .pagingInfo .current {
     color: black;
     font-weight: 600; }
 
@@ -11546,7 +11550,7 @@ footer ul {
           column-gap: 30px;
   line-height: 1.35; }
 
-.about main {
+.about {
   padding-top: 148px;
   padding-bottom: 100px; }
 
@@ -11597,41 +11601,39 @@ footer ul {
   height: auto; }
 
 .artwork {
-  padding: 0 30px; }
-  .artwork main {
-    padding-top: 148px;
-    padding-bottom: 100px; }
-    .artwork main span.pagingInfo {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      width: 65px;
-      height: 20px;
-      font-size: 14px;
-      margin: 0 0 0;
-      position: absolute;
-      bottom: 312px;
-      right: 5px; }
-      .artwork main span.pagingInfo .current {
-        color: black;
-        font-weight: 600; }
+  padding-top: 148px;
+  padding-bottom: 100px; }
+  .artwork span.pagingInfo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 65px;
+    height: 20px;
+    font-size: 14px;
+    margin: 0 0 0;
+    position: absolute;
+    bottom: 312px;
+    right: 5px; }
+    .artwork span.pagingInfo .current {
+      color: black;
+      font-weight: 600; }
 
-main .no-padding {
+.artwork .no-padding {
   padding-left: 0;
   padding-right: 0; }
 
-main .item {
+.artwork .item {
   margin-bottom: 15px; }
-  main .item .img-wrapper {
+  .artwork .item .img-wrapper {
     display: block;
     width: 100%;
     position: relative; }
-    main .item .img-wrapper a {
+    .artwork .item .img-wrapper a {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -11639,15 +11641,15 @@ main .item {
       left: 0;
       cursor: pointer;
       color: rgba(0, 0, 0, 0.5); }
-      main .item .img-wrapper a:hover a {
+      .artwork .item .img-wrapper a:hover a {
         color: black; }
 
-main .text {
+.artwork .text {
   width: 100%;
   font-size: 40px;
   padding-left: 80px;
   padding-bottom: 30px; }
-  main .text span {
+  .artwork .text span {
     display: block;
     width: 100%;
     max-width: 500px;
@@ -11655,43 +11657,43 @@ main .text {
     margin-top: -100px;
     color: #8c8e8f; }
 
-main .up {
+.artwork .up {
   margin-top: -60px; }
 
-main .little-up {
+.artwork .little-up {
   margin-top: -30px; }
 
-main .fix-column:nth-of-type(1) {
+.artwork .fix-column:nth-of-type(1) {
   padding-right: 30px; }
 
-main .fix-column:nth-of-type(2) {
+.artwork .fix-column:nth-of-type(2) {
   padding-right: 40px; }
 
-main .slider-wrapper {
+.artwork .slider-wrapper {
   position: relative; }
 
-main .wrapper {
+.artwork .wrapper {
   position: relative; }
 
-main .slider-gallery {
+.artwork .slider-gallery {
   padding: 0;
   width: 100%; }
-  main .slider-gallery .slick-slide {
+  .artwork .slider-gallery .slick-slide {
     width: 100%; }
 
-main .slider-gallery {
+.artwork .slider-gallery {
   padding: 0;
   position: relative;
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
           user-select: text; }
-  main .slider-gallery .slide .img-responsive {
+  .artwork .slider-gallery .slide .img-responsive {
     width: 100%; }
-  main .slider-gallery .slide .name-img {
+  .artwork .slider-gallery .slide .name-img {
     font-style: italic;
     color: #5b5b5b; }
-  main .slider-gallery .slick-arrow {
+  .artwork .slider-gallery .slick-arrow {
     position: absolute;
     bottom: 315px;
     right: 0;
@@ -11701,11 +11703,11 @@ main .slider-gallery {
     width: 10px;
     height: 10px;
     z-index: 1080; }
-  main .slider-gallery .slick-prev {
+  .artwork .slider-gallery .slick-prev {
     right: 60px; }
-  main .slider-gallery .slick-next {
+  .artwork .slider-gallery .slick-next {
     right: 0; }
-  main .slider-gallery .slick-prev:before {
+  .artwork .slider-gallery .slick-prev:before {
     content: "";
     display: block;
     width: 10px;
@@ -11719,7 +11721,7 @@ main .slider-gallery {
     position: absolute;
     left: 0;
     top: 0; }
-  main .slider-gallery .slick-next:before {
+  .artwork .slider-gallery .slick-next:before {
     content: "";
     display: block;
     width: 10px;
@@ -11737,11 +11739,11 @@ main .slider-gallery {
     left: 0;
     top: 0; }
 
-main .name-gallery {
+.artwork .name-gallery {
   color: black;
   font-weight: 600; }
 
-main .description-gallery {
+.artwork .description-gallery {
   position: relative;
   max-height: 250px;
   min-height: 250px;
@@ -11756,85 +11758,83 @@ main .description-gallery {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  main .description-gallery p {
+  .artwork .description-gallery p {
     width: 19%; }
 
-.exhibitions main {
+.exhibitions {
   padding-top: 148px;
   padding-bottom: 100px; }
-  .exhibitions main h3 {
+  .exhibitions h3 {
     font-size: 17px; }
-
-.exhibitions .slider-upcoming {
-  margin-bottom: 40px; }
-  .exhibitions .slider-upcoming .slide .img-wrapper {
-    margin-bottom: 10px; }
-  .exhibitions .slider-upcoming .slick-arrow {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-left: -5px;
-    color: transparent;
-    background: transparent;
-    border: none;
-    width: 10px;
-    height: 10px;
-    z-index: 1050; }
-  .exhibitions .slider-upcoming .slick-prev {
-    right: 60px; }
-  .exhibitions .slider-upcoming .slick-next {
-    right: 0; }
-  .exhibitions .slider-upcoming .slick-prev:before {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
+  .exhibitions .slider-upcoming {
+    margin-bottom: 40px; }
+    .exhibitions .slider-upcoming .slide .img-wrapper {
+      margin-bottom: 10px; }
+    .exhibitions .slider-upcoming .slick-arrow {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-left: -5px;
+      color: transparent;
+      background: transparent;
+      border: none;
+      width: 10px;
+      height: 10px;
+      z-index: 1050; }
+    .exhibitions .slider-upcoming .slick-prev {
+      right: 60px; }
+    .exhibitions .slider-upcoming .slick-next {
+      right: 0; }
+    .exhibitions .slider-upcoming .slick-prev:before {
+      content: "";
+      display: block;
+      width: 10px;
+      height: 10px;
+      font-size: 14px;
+      color: black;
+      cursor: pointer;
+      background: url("../img/left-arrow-chevron.png");
+      -webkit-background-size: cover;
+              background-size: cover;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .exhibitions .slider-upcoming .slick-next:before {
+      content: "";
+      display: block;
+      width: 10px;
+      height: 10px;
+      font-size: 14px;
+      color: black;
+      cursor: pointer;
+      background: url("../img/left-arrow-chevron.png");
+      -webkit-background-size: cover;
+              background-size: cover;
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg);
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .exhibitions .pagingInfo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 65px;
+    height: 20px;
     font-size: 14px;
-    color: black;
-    cursor: pointer;
-    background: url("../img/left-arrow-chevron.png");
-    -webkit-background-size: cover;
-            background-size: cover;
+    margin: 0 0 0;
     position: absolute;
-    left: 0;
-    top: 0; }
-  .exhibitions .slider-upcoming .slick-next:before {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    font-size: 14px;
-    color: black;
-    cursor: pointer;
-    background: url("../img/left-arrow-chevron.png");
-    -webkit-background-size: cover;
-            background-size: cover;
-    -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
-    position: absolute;
-    left: 0;
-    top: 0; }
-
-.exhibitions .pagingInfo {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 65px;
-  height: 20px;
-  font-size: 14px;
-  margin: 0 0 0;
-  position: absolute;
-  bottom: -2px;
-  right: 5px; }
-  .exhibitions .pagingInfo .current {
-    color: black;
-    font-weight: 600; }
+    bottom: -2px;
+    right: 5px; }
+    .exhibitions .pagingInfo .current {
+      color: black;
+      font-weight: 600; }
 
 .text-wrapper {
   -webkit-column-count: 3;
@@ -11922,22 +11922,22 @@ main .description-gallery {
     color: black;
     font-weight: 600; }
 
-.contact main {
+.contact {
   padding-top: 148px;
   padding-bottom: 100px; }
-  .contact main .text-link {
+  .contact .text-link {
     font-style: normal; }
-  .contact main .text-wrapper {
+  .contact .text-wrapper {
     -webkit-column-count: 1;
        -moz-column-count: 1;
             column-count: 1; }
-    .contact main .text-wrapper h4 {
+    .contact .text-wrapper h4 {
       font-weight: bold;
       color: black;
       font-size: 17px;
       margin-bottom: 20px; }
 
-.footer-page main {
+.footer-page {
   padding-top: 148px;
   padding-bottom: 100px; }
 
@@ -12016,42 +12016,42 @@ main .description-gallery {
     font-size: 42px; } }
 
 @media only screen and (max-width: 1365px) {
-  .artwork main .text span {
+  .artwork .text span {
     margin-top: -250px;
     max-width: 400px; }
-  .artwork main .up {
+  .artwork .up {
     margin-top: 0; }
-  .artwork main .little-up {
+  .artwork .little-up {
     margin-top: 0; }
-  .artwork main .fix-column:nth-of-type(1) {
+  .artwork .fix-column:nth-of-type(1) {
     padding-right: 15px; }
-  .artwork main .fix-column:nth-of-type(2) {
+  .artwork .fix-column:nth-of-type(2) {
     padding-right: 15px; } }
 
 @media only screen and (max-width: 1024px) {
-  main .description-gallery {
+  .artwork .description-gallery {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    main .description-gallery p {
+    .artwork .description-gallery p {
       width: 32%; }
-    main .description-gallery li {
+    .artwork .description-gallery li {
       width: 200px; }
-  .artwork main {
+  .artwork {
     padding-top: 182px; }
-    .artwork main .description-gallery {
+    .artwork .description-gallery {
       -webkit-column-count: 2;
          -moz-column-count: 2;
               column-count: 2; }
-    .artwork main .offset-lg-3 {
+    .artwork .offset-lg-3 {
       padding-right: 0;
       padding-left: 0; }
-    .artwork main .text {
+    .artwork .text {
       padding-left: 0;
       margin: 7px; }
-      .artwork main .text span {
+      .artwork .text span {
         max-width: none;
         margin-top: 0; }
   .modal_item {
@@ -12100,7 +12100,7 @@ main .description-gallery {
     width: 100%; } }
 
 @media only screen and (max-width: 768px) {
-  .artwork main .description-gallery p {
+  .artwork .description-gallery p {
     width: 100%; } }
 
 @media only screen and (max-width: 540px) {
@@ -12130,7 +12130,7 @@ main .description-gallery {
     font-size: 24px; } }
 
 @media only screen and (max-width: 498px) {
-  .artwork main .text {
+  .artwork .text {
     margin-left: 0;
     font-size: 28px;
     text-align: center; } }
