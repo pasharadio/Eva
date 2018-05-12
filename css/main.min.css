@@ -33,7 +33,7 @@
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
-  --breakpoint-md: 769px;
+  --breakpoint-md: 768px;
   --breakpoint-lg: 1025px;
   --breakpoint-xl: 1367px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -471,7 +471,7 @@ pre {
   @media (min-width: 576px) {
     .container {
       max-width: 576px; } }
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     .container {
       max-width: 1024px; } }
   @media (min-width: 1025px) {
@@ -933,7 +933,7 @@ pre {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .col-md {
     -webkit-flex-basis: 0;
         -ms-flex-preferred-size: 0;
@@ -1670,7 +1670,7 @@ pre {
     .table-responsive-sm > .table-bordered {
       border: 0; } }
 
-@media (max-width: 768.98px) {
+@media (max-width: 767.98px) {
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -3531,13 +3531,13 @@ tbody.collapse.show {
       top: auto;
       bottom: 100%; } }
 
-@media (max-width: 768.98px) {
+@media (max-width: 767.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .navbar-expand-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -5420,7 +5420,7 @@ button.bg-dark:focus {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .d-md-none {
     display: none !important; }
   .d-md-inline {
@@ -5855,7 +5855,7 @@ button.bg-dark:focus {
         -ms-flex-item-align: stretch !important;
             align-self: stretch !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -6277,7 +6277,7 @@ button.bg-dark:focus {
   .float-sm-none {
     float: none !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .float-md-left {
     float: left !important; }
   .float-md-right {
@@ -6821,7 +6821,7 @@ button.bg-dark:focus {
   .mx-sm-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .m-md-0 {
     margin: 0 !important; }
   .mt-md-0,
@@ -7402,7 +7402,7 @@ button.bg-dark:focus {
   .text-sm-center {
     text-align: center !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .text-md-left {
     text-align: left !important; }
   .text-md-right {
@@ -7866,7 +7866,7 @@ html {
   @media (min-width: 576px) {
     .container {
       max-width: 576px; } }
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     .container {
       max-width: 1024px; } }
   @media (min-width: 1025px) {
@@ -8328,7 +8328,7 @@ html {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .col-md {
     -webkit-flex-basis: 0;
         -ms-flex-preferred-size: 0;
@@ -8954,7 +8954,7 @@ html {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .d-md-none {
     display: none !important; }
   .d-md-inline {
@@ -9355,7 +9355,7 @@ html {
         -ms-flex-item-align: stretch !important;
             align-self: stretch !important; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -12005,7 +12005,9 @@ main .description-gallery {
   .about .text-wrapper, .exhibitions .text-wrapper {
     -webkit-column-count: 2;
        -moz-column-count: 2;
-            column-count: 2; } }
+            column-count: 2; }
+  .art-statement .article h2 {
+    font-size: 42px; } }
 
 @media only screen and (max-width: 1365px) {
   .artwork main .text span {
@@ -12101,7 +12103,8 @@ main .description-gallery {
   .hamburger {
     -webkit-transform: scale(0.6);
         -ms-transform: scale(0.6);
-            transform: scale(0.6); }
+            transform: scale(0.6);
+    padding-right: 25px; }
   footer ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
