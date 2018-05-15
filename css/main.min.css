@@ -11280,7 +11280,7 @@ img:focus {
   outline: none;
   text-decoration: none; }
 
-.container {
+.wrapper-page {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11290,7 +11290,9 @@ img:focus {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
+  height: 100%; }
+
+.container {
   padding: 0 30px; }
 
 main {
@@ -11416,7 +11418,7 @@ header {
   height: 2px; }
 
 .main-page {
-  padding-top: 227px; }
+  padding-top: 148px; }
 
 main {
   width: 100%; }
