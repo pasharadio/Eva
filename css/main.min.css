@@ -11572,11 +11572,13 @@ footer ul {
 .color-black {
   color: black; }
 
+.artistic-curriculum .photo p {
+  line-height: 1.29; }
+
 .artistic-curriculum .img-wrapper {
   margin-bottom: 15px; }
 
 .artistic-curriculum p {
-  text-transform: uppercase;
   font-size: 17px;
   line-height: 1.29; }
 
@@ -11789,7 +11791,6 @@ footer ul {
   .exhibitions .img-wrapper {
     margin-bottom: 15px; }
   .exhibitions p {
-    text-transform: uppercase;
     font-size: 17px;
     line-height: 1.29; }
 
