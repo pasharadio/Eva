@@ -11572,11 +11572,11 @@ footer ul {
 
 .artistic-curriculum .img-wrapper {
   margin-bottom: 15px; }
-  .artistic-curriculum .img-wrapper p {
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-size: 17px;
-    line-height: 1.3; }
+
+.artistic-curriculum p {
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 1.29; }
 
 .date {
   font-weight: bold;
@@ -11786,11 +11786,10 @@ footer ul {
     font-size: 17px; }
   .exhibitions .img-wrapper {
     margin-bottom: 15px; }
-    .exhibitions .img-wrapper p {
-      margin-top: 20px;
-      text-transform: uppercase;
-      font-size: 17px;
-      line-height: 1.3; }
+  .exhibitions p {
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 1.29; }
 
 .text-wrapper {
   -webkit-column-count: 3;
