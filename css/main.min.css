@@ -11813,6 +11813,31 @@ footer ul {
   margin-bottom: 40px; }
   .previous .slider-previous .slide .img-wrapper {
     margin-bottom: 10px; }
+  .previous .slider-previous ul.slider-paging-number {
+    position: absolute;
+    bottom: -26px;
+    right: 5px;
+    list-style: none;
+    padding-left: 0;
+    width: 65px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .previous .slider-previous ul.slider-paging-number li {
+      display: none; }
+      .previous .slider-previous ul.slider-paging-number li.slick-active {
+        display: inline-block; }
+      .previous .slider-previous ul.slider-paging-number li button {
+        background: none;
+        border: none;
+        color: black;
+        font-weight: bold;
+        padding: 0; }
   .previous .slider-previous .slick-arrow {
     position: absolute;
     bottom: 0;
@@ -11860,25 +11885,81 @@ footer ul {
     left: 0;
     top: 0; }
 
-.previous .pagingInfo {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 65px;
-  height: 20px;
-  font-size: 14px;
-  margin: 0 0 0;
-  position: absolute;
-  bottom: -2px;
-  right: 5px; }
-  .previous .pagingInfo .current {
+.slider-exhibitions {
+  margin-bottom: 40px; }
+  .slider-exhibitions .slide .img-wrapper {
+    margin-bottom: 10px; }
+  .slider-exhibitions ul.slider-paging-number {
+    position: absolute;
+    bottom: -26px;
+    right: 5px;
+    list-style: none;
+    padding-left: 0;
+    width: 65px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .slider-exhibitions ul.slider-paging-number li {
+      display: none; }
+      .slider-exhibitions ul.slider-paging-number li.slick-active {
+        display: inline-block; }
+      .slider-exhibitions ul.slider-paging-number li button {
+        background: none;
+        border: none;
+        color: black;
+        font-weight: bold;
+        padding: 0; }
+  .slider-exhibitions .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: -5px;
+    color: transparent;
+    background: transparent;
+    border: none;
+    width: 10px;
+    height: 10px;
+    z-index: 1050; }
+  .slider-exhibitions .slick-prev {
+    right: 60px; }
+  .slider-exhibitions .slick-next {
+    right: 0; }
+  .slider-exhibitions .slick-prev:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    font-size: 14px;
     color: black;
-    font-weight: 600; }
+    cursor: pointer;
+    background: url("../img/left-arrow-chevron.png");
+    -webkit-background-size: cover;
+            background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .slider-exhibitions .slick-next:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    background: url("../img/left-arrow-chevron.png");
+    -webkit-background-size: cover;
+            background-size: cover;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    top: 0; }
 
 .contact {
   padding-top: 148px;
