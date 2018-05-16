@@ -11780,10 +11780,7 @@ footer ul {
   padding-bottom: 30px;
   width: 100%;
   overflow-y: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
