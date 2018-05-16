@@ -11280,6 +11280,9 @@ img:focus {
   outline: none;
   text-decoration: none; }
 
+a:hover {
+  color: black; }
+
 .wrapper-page {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11367,6 +11370,9 @@ header {
   display: block;
   margin-top: 0; }
 
+.dropdown:nth-of-type(3) .dropdown-menu {
+  left: 10px; }
+
 .dropdown-menu {
   padding: 0;
   -webkit-border-radius: 0;
@@ -11379,7 +11385,8 @@ header {
   .dropdown-menu .dropdown-item {
     border-bottom: 1px solid #f7f4f4;
     color: #5b5b5b;
-    font-size: 17px; }
+    font-size: 17px;
+    padding-left: 0; }
     .dropdown-menu .dropdown-item:before {
       content: "";
       display: block;
@@ -11567,7 +11574,7 @@ footer ul {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px;
-  line-height: 1.35; }
+  line-height: 1.31; }
 
 .color-black {
   color: black; }
@@ -11583,11 +11590,11 @@ footer ul {
   line-height: 1.29; }
 
 .date {
-  font-weight: bold;
+  font-weight: normal;
   color: black; }
 
 .about h4 {
-  font-weight: bold;
+  font-weight: normal;
   color: black;
   font-size: 17px;
   margin-top: 30px;
@@ -11621,7 +11628,7 @@ footer ul {
     font-size: 14px;
     margin: 0 0 0;
     position: absolute;
-    bottom: 312px;
+    bottom: 315px;
     right: 5px; }
     .artwork span.pagingInfo .current {
       color: black;
@@ -11632,7 +11639,7 @@ footer ul {
   padding-right: 0; }
 
 .artwork .item {
-  margin-bottom: 15px; }
+  margin-bottom: 25px; }
   .artwork .item .img-wrapper {
     display: block;
     width: 100%;
@@ -11702,7 +11709,8 @@ footer ul {
     width: 100%;
     padding-bottom: 40%;
     overflow: hidden;
-    display: block; }
+    display: block;
+    margin-bottom: 15px; }
   .artwork .slider-gallery .slide .img-responsive {
     width: auto;
     height: 100%;
@@ -11717,7 +11725,7 @@ footer ul {
     color: #5b5b5b; }
   .artwork .slider-gallery .slick-arrow {
     position: absolute;
-    bottom: 315px;
+    bottom: 318px;
     right: 0;
     color: transparent;
     background: transparent;
@@ -11781,7 +11789,8 @@ footer ul {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .artwork .description-gallery p {
-    width: 19%; }
+    width: 19%;
+    line-height: 1.31; }
 
 .exhibitions {
   padding-top: 148px;
@@ -11793,6 +11802,8 @@ footer ul {
   .exhibitions p {
     font-size: 17px;
     line-height: 1.29; }
+  .exhibitions a {
+    font-style: italic; }
 
 .text-wrapper {
   -webkit-column-count: 3;
@@ -11800,8 +11811,9 @@ footer ul {
           column-count: 3;
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
-          column-gap: 30px;
-  line-height: 1.35; }
+          column-gap: 30px; }
+  .text-wrapper p {
+    line-height: 1.31; }
 
 .color-black {
   color: black; }
@@ -11815,7 +11827,7 @@ footer ul {
     margin-bottom: 10px; }
   .previous .slider-previous ul.slider-paging-number {
     position: absolute;
-    bottom: -26px;
+    bottom: -24px;
     right: 5px;
     list-style: none;
     padding-left: 0;
@@ -11829,7 +11841,8 @@ footer ul {
         -ms-flex-pack: center;
             justify-content: center; }
     .previous .slider-previous ul.slider-paging-number li {
-      display: none; }
+      display: none;
+      font-size: 14px; }
       .previous .slider-previous ul.slider-paging-number li.slick-active {
         display: inline-block; }
       .previous .slider-previous ul.slider-paging-number li button {
@@ -11837,7 +11850,8 @@ footer ul {
         border: none;
         color: black;
         font-weight: bold;
-        padding: 0; }
+        padding: 0;
+        font-size: 14px; }
   .previous .slider-previous .slick-arrow {
     position: absolute;
     bottom: 0;
@@ -11891,7 +11905,7 @@ footer ul {
     margin-bottom: 10px; }
   .slider-exhibitions ul.slider-paging-number {
     position: absolute;
-    bottom: -26px;
+    bottom: -24px;
     right: 5px;
     list-style: none;
     padding-left: 0;
@@ -11905,7 +11919,8 @@ footer ul {
         -ms-flex-pack: center;
             justify-content: center; }
     .slider-exhibitions ul.slider-paging-number li {
-      display: none; }
+      display: none;
+      font-size: 14px; }
       .slider-exhibitions ul.slider-paging-number li.slick-active {
         display: inline-block; }
       .slider-exhibitions ul.slider-paging-number li button {
@@ -11913,7 +11928,8 @@ footer ul {
         border: none;
         color: black;
         font-weight: bold;
-        padding: 0; }
+        padding: 0;
+        font-size: 14px; }
   .slider-exhibitions .slick-arrow {
     position: absolute;
     bottom: 0;
@@ -11965,13 +11981,15 @@ footer ul {
   padding-top: 148px;
   padding-bottom: 100px; }
   .contact .text-link {
-    font-style: normal; }
+    font-style: italic; }
   .contact .text-wrapper {
     -webkit-column-count: 1;
        -moz-column-count: 1;
             column-count: 1; }
+    .contact .text-wrapper p {
+      line-height: 1.31; }
     .contact .text-wrapper h4 {
-      font-weight: bold;
+      font-weight: normal;
       color: black;
       font-size: 17px;
       margin-bottom: 20px; }
@@ -11982,8 +12000,11 @@ footer ul {
 
 .imprint h4 {
   font-size: 17px;
-  font-weight: bold;
+  font-weight: normal;
   color: black; }
+
+.imprint .description-content p {
+  line-height: 1.31; }
 
 .imprint .description-content span {
   display: block; }
@@ -11994,15 +12015,19 @@ footer ul {
 
 .copyright h4 {
   font-size: 17px;
-  font-weight: bold;
+  font-weight: normal;
   color: black; }
 
 .copyright .description-content span {
   display: block; }
 
+.copyright .description-content p {
+  line-height: 1.31; }
+
 .copyright .description-content .text-link {
   display: block;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-style: italic; }
 
 .overlay_item {
   z-index: 1070;
@@ -12107,7 +12132,8 @@ footer ul {
     margin-bottom: 10px; }
   header .dropdown-menu {
     border-top: none;
-    background-color: transparent; }
+    background-color: transparent;
+    padding-left: 10px; }
   header .navbar.shadow .language-switch {
     top: 12px; }
   .language-switch {
