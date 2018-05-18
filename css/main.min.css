@@ -12196,6 +12196,9 @@ footer ul {
     right: 0;
     max-width: none;
     width: auto; }
+  .artwork .slider-gallery .slide .img-wrapper {
+    padding-bottom: 0;
+  }
   .artwork .slider-gallery .slide .img-wrapper .img-inner-wrapper {
     padding-bottom: 100%;
     overflow: hidden;
@@ -12365,6 +12368,9 @@ footer ul {
     right: 0;
     max-width: none;
     width: auto; }
+  .artwork .slider-gallery .slide .img-wrapper {
+    padding-bottom: 0;
+  }
   .artwork .slider-gallery .slide .img-wrapper .img-inner-wrapper {
     padding-bottom: 100%;
     overflow: hidden;
