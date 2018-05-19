@@ -12077,16 +12077,22 @@ footer ul {
     color: black;
     z-index: 1070; }
 @media only screen and (max-width: 1366px) {
-  .about .text-wrapper, .exhibitions .text-wrapper {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1; } }
-
-@media only screen and (max-width: 1365px) {
-  .about .text-wrapper, .exhibitions .text-wrapper {
+   .exhibitions .text-wrapper {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1; }
+  .about .text-wrapper {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 1365px) {
+  .about .text-wrapper {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2; }
   .art-statement .article h2 {
     font-size: 36px; } }
 
@@ -12125,10 +12131,11 @@ footer ul {
     padding-left: 0; }
   .modal_item {
     width: 100%; }
-  .about .text-wrapper, .exhibitions .text-wrapper {
+  .about .text-wrapper {
     -webkit-column-count: 1;
     -moz-column-count: 1;
-    column-count: 1; }
+    column-count: 1;
+  }
   .art-statement .article h2 {
     font-size: 30px;
     margin-bottom: 50px;
@@ -12255,16 +12262,22 @@ footer ul {
   } }
 
 @media only screen and (max-device-width: 1366px) {
-  .about .text-wrapper, .exhibitions .text-wrapper {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1; } }
-
-@media only screen and (max-device-width: 1365px) {
-  .about .text-wrapper, .exhibitions .text-wrapper {
+  .exhibitions .text-wrapper {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1; }
+  .about .text-wrapper {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-device-width: 1365px) {
+  .about .text-wrapper {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2; }
   .art-statement .article h2 {
     font-size: 36px; } }
 
@@ -12303,10 +12316,11 @@ footer ul {
     padding-left: 0; }
   .modal_item {
     width: 100%; }
-  .about .text-wrapper, .exhibitions .text-wrapper {
+  .about .text-wrapper {
     -webkit-column-count: 1;
     -moz-column-count: 1;
-    column-count: 1; }
+    column-count: 1;
+  }
   .art-statement .article h2 {
     font-size: 30px;
     margin-bottom: 50px;
